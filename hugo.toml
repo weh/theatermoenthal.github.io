@@ -1,0 +1,4 @@
+baseURL = 'https://theatermoenthal.github.io/'
+locale = 'de-ch'
+title = 'Theatergruppe Mönthal'
+theme = 'ananke'
