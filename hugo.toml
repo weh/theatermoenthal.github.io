@@ -1,4 +1,5 @@
 baseURL = 'https://www.theatermoenthal.ch/'
-locale = 'de-ch'
+defaultContentLanguage = 'de'
+locale = 'de-CH'
 title = 'Theatergruppe Mönthal'
 theme = 'ananke'
