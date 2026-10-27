@@ -1,0 +1,13 @@
+<div class="nav wrap">
+  <a class="brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }} – Startseite">
+    <span class="mark"><img src="{{ "images/theaterwappen.png" | relURL }}" alt="Theaterwappen mit Theatermasken"></span>
+    <span><b>{{ site.Title }}</b><small>Auf der Bühne seit 1987</small></span>
+  </a>
+  <nav class="links" aria-label="Hauptnavigation">
+    <a href="{{ site.Home.RelPermalink }}#aktuell">Aktuell</a>
+    <a href="{{ "ensemble/" | relURL }}">Ensemble</a>
+    <a href="{{ site.Home.RelPermalink }}#archiv">Archiv</a>
+    <a href="{{ "gallery/" | relURL }}">Galerie</a>
+    <a class="reserve" href="{{ "reservation/" | relURL }}">Platz reservieren</a>
+  </nav>
+</div>

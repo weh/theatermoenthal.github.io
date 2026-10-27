@@ -2,4 +2,4 @@ baseURL: 'https://www.theatermoenthal.ch/'
 defaultContentLanguage: de
 locale: de-CH
 title: 'Theatergruppe Mönthal'
-theme: ananke
+theme: theater-moenthal

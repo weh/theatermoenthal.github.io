@@ -1,0 +1,78 @@
+{{ define "main" }}
+  {{ with index hugo.Data "current-play" }}
+    <section class="hero wrap" id="aktuell" aria-labelledby="current-play-title">
+      <div class="poster-wrap">
+        <span class="tape" aria-hidden="true"></span>
+        <div class="poster">
+          <img src="{{ .poster | relURL }}" alt="Tiefroter Theatervorhang auf einer Bühne" width="1140" height="1026">
+          <div class="poster-cap">
+            <small>Wir spielen</small>
+            <h2>{{ .title }}</h2>
+            <span>{{ .subtitle }}</span><br>
+            <span>von {{ delimit .authors " und " }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">Unsere neue Produktion · {{ .season }}</p>
+        <h1 id="current-play-title">{{ .headline }}</h1>
+        <p class="intro">{{ .description }}</p>
+        <div class="hero-dates">
+          {{ range .performances }}
+            <div>
+              <strong>{{ time.Format ":date_long" .datetime }}</strong>
+              <span>{{ time.Format "15:04" .datetime }} Uhr</span>
+            </div>
+          {{ end }}
+          <div>
+            <strong>{{ .venue.name }}</strong>
+            <span>{{ .venue.address }}</span>
+            <span>{{ .venue.boxOffice }}</span>
+          </div>
+        </div>
+        <a class="cta" href="{{ "reservation/" | relURL }}">Plätze reservieren <span aria-hidden="true">→</span></a>
+        <span class="note">{{ .note }}</span>
+      </div>
+    </section>
+
+    <section class="performances" aria-labelledby="performances-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">{{ .season }}</p>
+            <h2 id="performances-title">Nächste Vorstellungen</h2>
+          </div>
+          <p class="performance-intro">
+            <strong>{{ .title }}</strong><br>
+            {{ .ticketPrices.adults }} · Kinder {{ .ticketPrices.children }}
+          </p>
+        </div>
+
+        <div class="show-list">
+          {{ range .performances }}
+            <article class="show">
+              <time datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" .datetime }}">
+                <span class="day">{{ time.Format "02" .datetime }}</span>
+                <span>
+                  <strong>{{ time.Format ":date_long" .datetime }}</strong>
+                  <small>{{ time.Format "15:04" .datetime }} Uhr</small>
+                  {{ if .available }}
+                    <span class="available">Plätze verfügbar</span>
+                  {{ else }}
+                    <span class="sold-out">Ausverkauft</span>
+                  {{ end }}
+                </span>
+              </time>
+            </article>
+          {{ end }}
+        </div>
+
+        <div class="performance-footer">
+          <p>{{ .venue.name }} · {{ .venue.address }}</p>
+          <a class="button light-button" href="{{ "reservation/" | relURL }}">Plätze reservieren <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

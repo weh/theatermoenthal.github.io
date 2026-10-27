@@ -1,0 +1,8 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}Theatergruppe Mönthal – aktuelle Produktion, Ensemble, Archiv und Reservation.{{ end }}">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s – %s" .Title site.Title }}{{ end }}</title>
+{{ with resources.Get "css/main.css" }}
+  {{ $style := . | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ end }}

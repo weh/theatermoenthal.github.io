@@ -1,0 +1,33 @@
+title: Alles für de Papst
+subtitle: Eine Komödie in zwei Akten
+authors:
+  - Atréju Diener
+  - Enrico Maurer
+season: Januar 2027
+poster: images/vorhang.png
+headline: Vorhang auf für das Chaos.
+note: Mir freued üs uf eu! ↗
+description: >-
+  Eine Tür geht auf, eine Tür fällt zu – und hinter der Bühne läuft alles
+  komplett aus dem Ruder. Erlebt einen Abend voller Tempo, Verwechslungen und
+  ziemlich vieler Sardinen.
+venue:
+  name: Turnhalle
+  address: Bürersteigstrasse 103 · 5237 Mönthal
+  boxOffice: Abendkasse ab 19 Uhr
+ticketPrices:
+  adults: CHF 24.–
+  children: CHF 12.–
+reservation:
+  phone: "056 284 23 94"
+  telephoneLink: "+41562842394"
+  hours: Montag bis Freitag, 18:00–20:00 Uhr
+performances:
+  - datetime: 2027-01-23T20:15:00+01:00
+    available: true
+  - datetime: 2027-01-24T13:15:00+01:00
+    available: true
+  - datetime: 2027-01-29T20:15:00+01:00
+    available: true
+  - datetime: 2027-01-30T20:15:00+01:00
+    available: true
