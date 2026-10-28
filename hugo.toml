@@ -1,4 +1,4 @@
-baseURL = 'https://www.theatermoenthal.ch/'
+baseURL = 'https://www.theater-moenthal.ch/'
 defaultContentLanguage = 'de'
 locale = 'de-CH'
 title = 'Theatergruppe Mönthal'
