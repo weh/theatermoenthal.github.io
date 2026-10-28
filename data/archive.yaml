@@ -5,14 +5,47 @@ plays:
     author: Atréju Diener
     status: Fotos ansehen
     gallery: /gallery/
+    # Dieselbe Credits-Struktur wie in data/current-play.yaml verwenden.
+    # credits:
+    #   - heading: Besetzung
+    #     entries:
+    #       - person: anna-muster
+    #         role: Beispielrolle
+    credits:
+      - heading: Hinter der Bühne
+        entries:
+          - person: joerg-birrfelder
+            role: Regie
+          - person: dieter-bielmann
+            role: Souffleur
+      - heading: Spieler
+        entries:
+          - person: roland-inderwildi
+            role: xx
+          - person: lukas-maerkli
+            role: xx
 
   - year: 2024
     title: Die Physiker
     subtitle: Eine Komödie in zwei Akten
     author: Friedrich Dürrenmatt
     status: Ausverkauft
+    credits:
+      - heading: Hinter der Bühne
+        entries:
+          - person: joerg-birrfelder
+            role: Regie
+          - person: dieter-bielmann
+            role: Souffleur
 
   - year: 2023
     title: Alles uf Chrankeschii
     subtitle: Ein turbulenter Schwank in Schweizer Mundart
     status: Publikumsliebling
+    credits:
+      - heading: Hinter der Bühne
+        entries:
+          - person: joerg-birrfelder
+            role: Regie
+          - person: dieter-bielmann
+            role: Souffleur

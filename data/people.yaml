@@ -1,0 +1,26 @@
+# Ein Eintrag pro realer Person. Der Schlüssel ist die stabile ID für Produktionen.
+# Porträts liegen unter themes/theater-moenthal/static/images/people/.
+# Beispiel:
+# anna-muster:
+#   name: Anna Muster
+#   image: images/people/anna-muster.jpg
+#   imageAlt: Porträt von Anna Muster
+#
+# Die Rolle einer Person gehört in die `credits` der jeweiligen Produktion.
+people:
+  joerg-birrfelder:
+    name: Jörg Birrfelder
+    image: images/people/joerg-birrfelder.jpg
+    imageAlt: Jörg Birrfelder
+  dieter-bielmann:
+    name: Dieter Bielmann
+    image: images/people/dieter-bielmann.jpg
+    imageAlt: Dieter Bielmann
+  roland-inderwildi:
+    name: Roland Inderwildi
+    image: images/people/roland-inderwildi.jpg
+    imageAlt: Roland Inderwildi
+  lukas-maerkli:
+    name: Lukas Märkli
+    image: images/people/lukas-maerkli.jpg
+    imageAlt: Lukas Märkli

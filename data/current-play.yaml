@@ -11,6 +11,30 @@ description: >-
   Eine Tür geht auf, eine Tür fällt zu – und hinter der Bühne läuft alles
   komplett aus dem Ruder. Erlebt einen Abend voller Tempo, Verwechslungen und
   ziemlich vieler Sardinen.
+# Personen werden über ihre ID aus data/people.yaml ergänzt. Eine Person kann in
+# beliebig vielen aktuellen oder archivierten Produktionen vorkommen; nur die Rolle steht hier.
+# credits:
+#   - heading: Besetzung
+#     entries:
+#       - person: anna-muster
+#         role: Frau Müller
+#   - heading: Hinter der Bühne
+#     entries:
+#       - person: max-muster
+#         role: Regie
+credits:
+  - heading: Hinter der Bühne
+    entries:
+      - person: joerg-birrfelder
+        role: Regie
+      - person: dieter-bielmann
+        role: Souffleur
+  - heading: Spieler
+    entries:
+      - person: roland-inderwildi
+        role: xx
+      - person: lukas-maerkli
+        role: xx
 venue:
   name: Turnhalle
   address: Bürersteigstrasse 103 · 5237 Mönthal
