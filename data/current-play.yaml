@@ -1,5 +1,5 @@
 title: Alles für de Papst
-subtitle: Eine Komödie in zwei Akten
+subtitle: Schwank in zwei Akten
 authors:
   - Atréju Diener
   - Enrico Maurer
@@ -17,24 +17,69 @@ description: >-
 #   - heading: Besetzung
 #     entries:
 #       - person: anna-muster
-#         role: Frau Müller
+#         role:
+#           name: Frau Müller
+#           description: Optionale Rollenbeschreibung
 #   - heading: Hinter der Bühne
 #     entries:
 #       - person: max-muster
-#         role: Regie
+#         role:
+#           name: Regie
 credits:
   - heading: Hinter der Bühne
     entries:
       - person: joerg-birrfelder
-        role: Regie
+        role:
+          name: Regie
       - person: dieter-bielmann
-        role: Souffleur
+        role:
+          name: Souffleur
+      - person: carmen-baumann
+        role:
+          name: Coiffeur/Maske
+      - person: brigitte-läuchli
+        role:
+          name: Requisiten/Bühnenbild
+      - person: alvin-frei
+        role:
+          name: Requisiten/Bühnenbild
+      - person: rene-foroni
+        role:
+          name: Bühnenbau
   - heading: Spieler
     entries:
+      - person: luki-maerkli
+        role:
+          name: Valentin Abegg
+          description: Angehender Gardist der Schweizergarde
+      - person: barbara-widmer
+        role:
+          name: Corine Salzmann
+          description: Standesbeamtin
+      - person: jana-suter
+        role:
+          name: Sara Corti
+          description: Schauspielerin
+      - person: kaethi-keller
+        role:
+          name: Regula Abegg
+          description: Valentins Mutter
       - person: roland-inderwildi
-        role: xx
-      - person: lukas-maerkli
-        role: xx
+        role:
+          name: Felix Abegg
+          description: Valentins Vater
+      - person: patrik-wehrli
+        role:
+          name: Ernst Wälchli
+          description: Hauptmann der Schweizergarde
+      - person: erika-birrfelder
+        role:
+          name: Cecile Burger
+          description: Kantonsbeamtin
+      - person: evi-fedrizzi
+        role:
+          name: Martha Anderhub
+          description: Ältere Dame
 venue:
   name: Turnhalle
   address: Bürersteigstrasse 103 · 5237 Mönthal

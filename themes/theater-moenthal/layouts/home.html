@@ -40,12 +40,10 @@
       <div class="wrap">
         <div class="section-head">
           <div>
-            <p class="eyebrow">{{ .season }}</p>
             <h2 id="performances-title">Nächste Vorstellungen</h2>
           </div>
           <p class="performance-intro">
-            <strong>{{ .title }}</strong><br>
-            {{ .ticketPrices.adults }} · Kinder {{ .ticketPrices.children }}
+            Eintritt {{ .ticketPrices.adults }} · Kinder {{ .ticketPrices.children }}
           </p>
         </div>
 
@@ -69,8 +67,6 @@
         </div>
 
         <div class="performance-footer">
-          <p>{{ .venue.name }} · {{ .venue.address }}</p>
-          <a class="button light-button" href="{{ "reservation/" | relURL }}">Plätze reservieren <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>

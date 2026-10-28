@@ -8,19 +8,59 @@
 #
 # Die Rolle einer Person gehört in die `credits` der jeweiligen Produktion.
 people:
-  joerg-birrfelder:
-    name: Jörg Birrfelder
-    image: images/people/joerg-birrfelder.jpg
-    imageAlt: Jörg Birrfelder
+  alvin-frei:
+    name: Alvin Frei
+    image: images/people/alvin-frei.jpg
+    imageAlt: Alvin Frei
+  barbara-widmer:
+    name: Barbara Widmer
+    image: images/people/barbara-widmer.jpg
+    imageAlt: Barbara Widmer
+  brigitte-läuchli:
+    name: Brigitte Läuchli
+    image: images/people/brigitte-laeuchli.jpg
+    imageAlt: Brigitte Läuchli
+  carmen-baumann:
+    name: Carmen Baumann
+    image: images/people/carmen-baumann.jpg
+    imageAlt: Carmen Baumann
   dieter-bielmann:
     name: Dieter Bielmann
     image: images/people/dieter-bielmann.jpg
     imageAlt: Dieter Bielmann
+  erika-birrfelder:
+    name: Erika Birrfelder
+    image: images/people/erika-birrfelder.jpg
+    imageAlt: Erika Birrfelder
+  evi-fedrizzi:
+    name: Evi Fedrizzi
+    image: images/people/evi-fedrizzi.jpg
+    imageAlt: Evi Fedrizzi
+  jana-suter:
+    name: Jana Suter
+    image: images/people/jana-suter.jpg
+    imageAlt: Jana Suter
+  joerg-birrfelder:
+    name: Jörg Birrfelder
+    image: images/people/joerg-birrfelder.jpg
+    imageAlt: Jörg Birrfelder
+  kaethi-keller:
+    name: Käthi Keller
+    image: images/people/kaethi-keller.jpg
+    imageAlt: Käthi Keller
+  luki-maerkli:
+    name: Luki Märkli
+    image: images/people/luki-maerkli.jpg
+    imageAlt: Luki Märkli
+  patrik-wehrli:
+    name: Patrik Wehrli
+    image: images/people/patrik-wehrli.jpg
+    imageAlt: Patrik Wehrli
+  rene-foroni:
+    name: René Foroni
+    image: images/people/rene-foroni.jpg
+    imageAlt: René Foroni
   roland-inderwildi:
     name: Roland Inderwildi
     image: images/people/roland-inderwildi.jpg
     imageAlt: Roland Inderwildi
-  lukas-maerkli:
-    name: Lukas Märkli
-    image: images/people/lukas-maerkli.jpg
-    imageAlt: Lukas Märkli
