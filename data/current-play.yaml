@@ -90,7 +90,7 @@ ticketPrices:
 reservation:
   phone: "056 284 23 94"
   telephoneLink: "+41562842394"
-  hours: Montag bis Freitag, 18:00–20:00 Uhr
+  hours: Ab dem 6.Januar 2027 von 18:00-19:30 Uhr
 performances:
   - datetime: 2027-01-23T20:15:00+01:00
     available: true

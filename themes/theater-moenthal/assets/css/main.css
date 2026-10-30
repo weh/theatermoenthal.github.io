@@ -75,7 +75,7 @@ header {
 .nav { display: flex; min-height: 84px; align-items: center; justify-content: space-between; gap: 2rem; }
 .brand { display: flex; flex: 0 1 auto; gap: 13px; align-items: center; }
 .brand:hover { color: var(--ink); }
-.mark { display: grid; width: 104px; height: 104px; flex: 0 0 auto; overflow: hidden; border-radius: 50%; place-items: center; }
+.mark { display: grid; width: 78px; height: 78px; flex: 0 0 auto; overflow: hidden; border-radius: 50%; place-items: center; }
 .mark img { width: 100%; height: 100%; object-fit: contain; }
 .brand b { display: block; font-family: "Libre Caslon Display", serif; font-size: 19px; letter-spacing: .02em; }
 .brand small { display: block; color: var(--muted); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; }
@@ -153,6 +153,42 @@ footer { margin-top: auto; }
 .light-button { background: #fff; color: var(--ink); }
 .light-button:hover { background: #ffe09c; color: var(--ink); }
 
+.credits, .archive { padding: 90px 0; }
+.credits > h2, .archive > h2 { margin: 10px 0 38px; font-family: "Libre Caslon Display", serif; font-size: clamp(2.8rem, 5vw, 4.5rem); font-weight: 400; line-height: 1; }
+.credit-group + .credit-group { margin-top: 42px; }
+.credit-group > h2, .credit-group > h3, .archive-play h3 { margin: 0 0 18px; font-size: 15px; letter-spacing: .1em; text-transform: uppercase; }
+.ensemble-page h1 { margin-bottom: 14px; }
+.ensemble-intro { max-width: 560px; margin-bottom: 38px; color: var(--muted); font-size: 18px; }
+.person-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+.person-credit {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  padding: 12px 12px 22px;
+  border: 1px solid #e7dfd3;
+  background: #291817;
+  color: #fffaf0;
+  box-shadow: 0 12px 24px #32251a1c;
+}
+.person-credit img, .person-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  flex: 0 0 auto;
+  object-fit: cover;
+}
+.person-placeholder { background: var(--gold); }
+.person-credit > div { padding: 14px 4px 0; }
+.person-credit h3 { margin: 0; font-size: 17px; }
+.person-credit p { margin: 2px 0 0; color: #e8cdbd; font-size: 14px; }
+.person-credit .role-description { font-size: 12px; }
+.archive { border-top: 1px solid var(--line); }
+.archive-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.archive-play { overflow: hidden; background: var(--paper-light); box-shadow: var(--shadow); }
+.archive-play img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.archive-play-caption { padding: 18px; }
+.archive-play-caption p { margin: 0; color: var(--red); font-size: 13px; font-weight: 700; letter-spacing: .12em; }
+.archive-play h3 { margin: 4px 0 0; font-family: "Libre Caslon Display", serif; font-size: 28px; font-weight: 400; line-height: 1.1; }
+
 footer { padding: 54px 0; background: var(--ink); color: #f8eedf; }
 .foot { display: flex; align-items: end; justify-content: space-between; gap: 2rem; }
 .foot h2 { margin: 0 0 7px; font-family: "Libre Caslon Display", serif; font-size: 29px; font-weight: 400; }
@@ -170,6 +206,8 @@ footer { padding: 54px 0; background: var(--ink); color: #f8eedf; }
   .section-head, .performance-footer { align-items: start; flex-direction: column; }
   .performance-intro { text-align: left; }
   .show-list { grid-template-columns: repeat(2, 1fr); }
+  .person-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .archive-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .show { padding-left: 0; border-bottom: 1px solid #ffffff55; }
   .show:nth-child(2n) { border-right: 0; }
 }
@@ -181,7 +219,7 @@ footer { padding: 54px 0; background: var(--ink); color: #f8eedf; }
   .poster-cap { right: 20px; bottom: 20px; left: 20px; padding: 16px; }
   .hero-dates { grid-template-columns: 1fr; gap: 14px; }
   .note { display: block; margin: 22px 0 0; }
-  .show-list { grid-template-columns: 1fr; }
+  .show-list, .person-grid, .archive-list { grid-template-columns: 1fr; }
   .show, .show:nth-child(2n) { border-right: 0; }
   .show:last-child { border-bottom: 0; }
   .foot { align-items: start; flex-direction: column; }

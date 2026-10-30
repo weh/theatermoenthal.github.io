@@ -10,51 +10,51 @@
 people:
   alvin-frei:
     name: Alvin Frei
-    image: images/people/alvin-frei.jpg
+    image: images/people/alvin-frei.png
     imageAlt: Alvin Frei
   barbara-widmer:
     name: Barbara Widmer
-    image: images/people/barbara-widmer.jpg
+    image: images/people/barbara-widmer.png
     imageAlt: Barbara Widmer
   brigitte-läuchli:
     name: Brigitte Läuchli
-    image: images/people/brigitte-laeuchli.jpg
+    image: images/people/brigitte-laeuchli.png
     imageAlt: Brigitte Läuchli
   carmen-baumann:
     name: Carmen Baumann
-    image: images/people/carmen-baumann.jpg
+    image: images/people/carmen-baumann.png
     imageAlt: Carmen Baumann
   dieter-bielmann:
     name: Dieter Bielmann
-    image: images/people/dieter-bielmann.jpg
+    image: images/people/dieter-bielmann.png
     imageAlt: Dieter Bielmann
   erika-birrfelder:
     name: Erika Birrfelder
-    image: images/people/erika-birrfelder.jpg
+    image: images/people/erika-birrfelder.png
     imageAlt: Erika Birrfelder
   evi-fedrizzi:
     name: Evi Fedrizzi
-    image: images/people/evi-fedrizzi.jpg
+    image: images/people/evi-fedrizzi.png
     imageAlt: Evi Fedrizzi
   jana-suter:
     name: Jana Suter
-    image: images/people/jana-suter.jpg
+    image: images/people/jana-suter.png
     imageAlt: Jana Suter
   joerg-birrfelder:
     name: Jörg Birrfelder
-    image: images/people/joerg-birrfelder.jpg
+    image: images/people/joerg-birrfelder.png
     imageAlt: Jörg Birrfelder
   kaethi-keller:
     name: Käthi Keller
-    image: images/people/kaethi-keller.jpg
+    image: images/people/kaethi-keller.png
     imageAlt: Käthi Keller
   luki-maerkli:
     name: Luki Märkli
-    image: images/people/luki-maerkli.jpg
+    image: images/people/luki-maerkli.png
     imageAlt: Luki Märkli
   patrik-wehrli:
     name: Patrik Wehrli
-    image: images/people/patrik-wehrli.jpg
+    image: images/people/patrik-wehrli.png
     imageAlt: Patrik Wehrli
   rene-foroni:
     name: René Foroni
@@ -62,5 +62,5 @@ people:
     imageAlt: René Foroni
   roland-inderwildi:
     name: Roland Inderwildi
-    image: images/people/roland-inderwildi.jpg
+    image: images/people/roland-inderwildi.png
     imageAlt: Roland Inderwildi

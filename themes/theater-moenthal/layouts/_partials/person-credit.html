@@ -1,0 +1,19 @@
+{{- $person := index .people .credit.person -}}
+{{- with $person -}}
+  {{ $fallback := "images/people/person.jpg" }}
+  {{ $image := .image | default $fallback }}
+  <article class="person-credit">
+    <img src="{{ $image | relURL }}" alt="{{ .imageAlt | default (printf "Porträt von %s" .name) }}" loading="lazy" onerror="this.onerror=null;this.src='{{ $fallback | relURL }}';">
+    <div>
+      <h3>{{ .name }}</h3>
+      {{ with $.credit.role }}
+        {{ if reflect.IsMap . }}
+          {{ with .name }}<p>{{ . }}</p>{{ end }}
+          {{ with .description }}<p class="role-description">{{ . }}</p>{{ end }}
+        {{ else }}
+          <p>{{ . }}</p>
+        {{ end }}
+      {{ end }}
+    </div>
+  </article>
+{{- end -}}

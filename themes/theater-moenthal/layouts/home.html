@@ -70,5 +70,26 @@
         </div>
       </div>
     </section>
+
+  {{ end }}
+
+  {{ with index hugo.Data "archive" }}
+    {{ with .plays }}
+      <section class="archive wrap" id="archiv" aria-labelledby="archive-title">
+        <p class="eyebrow">Frühere Produktionen</p>
+        <h2 id="archive-title">Archiv</h2>
+        <div class="archive-list">
+          {{ range . }}
+            <article class="archive-play">
+              <img src="{{ (.poster | default "images/vorhang.png") | relURL }}" alt="Plakat zu {{ .title }}" loading="lazy">
+              <div class="archive-play-caption">
+                <p>{{ .year }}</p>
+                <h3>{{ .title }}</h3>
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
   {{ end }}
 {{ end }}

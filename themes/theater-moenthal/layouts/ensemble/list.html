@@ -1,0 +1,20 @@
+{{ define "main" }}
+  {{ $people := (index hugo.Data "people").people | default dict }}
+  {{ with index hugo.Data "current-play" }}
+    <section class="credits ensemble-page wrap" aria-labelledby="ensemble-title">
+      <p class="eyebrow">Menschen auf und hinter der Bühne</p>
+      <h1 id="ensemble-title">{{ $.Title }}</h1>
+      {{ with $.Content }}<div class="ensemble-intro">{{ . }}</div>{{ end }}
+      {{ range .credits }}
+        <div class="credit-group">
+          <h2>{{ .heading }}</h2>
+          <div class="person-grid">
+            {{ range .entries }}
+              {{ partial "person-credit.html" (dict "people" $people "credit" .) }}
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </section>
+  {{ end }}
+{{ end }}
